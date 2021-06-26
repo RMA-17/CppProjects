@@ -17,3 +17,12 @@ int main(){  // '()' said to pass arguments into the function
     return 0; //0 = Program has run succesfully while any other signal or error
 }
 //If it's exited congrats, you have been successful creating C++ program
+
+/*  
+    And this is a
+    multiline
+    command
+    You can just simply
+    put 2 /* on some 2 line and boom! the middle one is going to be multiline command
+    just click enter and you can type freely
+*/
