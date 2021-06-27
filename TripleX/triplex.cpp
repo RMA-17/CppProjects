@@ -19,11 +19,16 @@ int main(){  // '()' said to pass arguments into the function
 
     std::cout << "- Angkanya kalau ditambahakan akan jadi: " << CodeTotalTambah << std::endl;
     std::cout << "- Angkanya kalo dikalikan jadi: " << CodeTotalKali << std::endl;
-    std::cout << "- Tebak berapakah angkanya? ";
+    std::cout << "- Angka untuk dikalikan: " << std::endl;
 
     //Get input variable
-    int PlayerGuess;
+    int PlayerGuessA, PlayerGuessB, PlayerGuessC;
+    std::cin >> PlayerGuessA; //std::cin used to giving an user input. and the input will be sent to the variale
+    std::cin >> PlayerGuessB; //FYI: You don't have to press enter after guessing 1 number, just press space and compiler will ignore those spaces.
+    std::cin >> PlayerGuessC; //If you type some string into integer variable, it will converted to 0
 
+    int GuessSum = PlayerGuessA + PlayerGuessB + PlayerGuessC;
+    int GuessProduct = PlayerGuessA * PlayerGuessB * PlayerGuessC;
 
 
 
