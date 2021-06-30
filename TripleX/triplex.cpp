@@ -32,9 +32,19 @@ int main(){  // '()' said to pass arguments into the function
 
 
 
+    if (GuessSum == CodeTotalTambah) {
+        std::cout << "Benar, 100 untukmu!";
+    } else if (GuessProduct == CodeTotalKali){
+        std::cout << "Benar, 100 untukmu!";
+    } else {
+        std::cout << "Salah! 0 untukmu!";
+    }
+
+
+
     return 0; //0 = Program has run succesfully while any other signal or error
 }
-//If it's exited congrats, you have been successful creating C++ program
+//If it's exited congrats, you have been successfuly creating C++ program
 
 /*  
     And this is a
