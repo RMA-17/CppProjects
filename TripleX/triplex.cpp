@@ -32,10 +32,8 @@ int main(){  // '()' said to pass arguments into the function
 
 
 
-    if (GuessSum == CodeTotalTambah) {
-        std::cout << "Benar, 100 untukmu!";
-    } else if (GuessProduct == CodeTotalKali){
-        std::cout << "Benar, 100 untukmu!";
+    if (GuessSum == CodeTotalTambah && GuessProduct == CodeTotalKali) {
+        std::cout << "Benar, 100 untukmu!"; 
     } else {
         std::cout << "Salah! 0 untukmu!";
     }
