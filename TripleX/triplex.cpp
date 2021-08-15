@@ -64,9 +64,12 @@ void PlayGame (){ //void is used to give behavior of function to give no return 
 
 //main() is used as the entry point of the program
 int main(){  // '()' said to pass arguments into the function
-    
+
+
     PrintIntroduction();
-    PlayGame(); //To make main() execute our function, just type the function name inside main() following by "()" and semicolon
+    while (true){
+        PlayGame(); //To make main() execute our function, just type the function name inside main() following by "()" and semicolon
+    }
 
     return 0; //0 = Program has run succesfully while any other signal or error
 }

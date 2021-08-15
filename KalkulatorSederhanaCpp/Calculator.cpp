@@ -1,12 +1,14 @@
 #include <iostream>
 #include <math.h>
 
+int Total;
+
 int main(void) {
     using namespace std;
 
     float NilaiA, NilaiB;
     int PilihanUser;
-    int Total;
+    
     
 
     cout << "Kalkulator Sederhana By Raka M.A" << std::endl;
@@ -20,7 +22,7 @@ int main(void) {
 
     if (PilihanUser == 1){
         cout << "Pilihan yang dipilih: Pertambahan" << std::endl;
-        cout << "=================================" << std::endl;
+        std::cout << "=================================" << std::endl;
         cout << "Masukkan Nilai A: " << std::endl;
         cin >> NilaiA;
         cout << "Masukkan Nilai B: " << std::endl;
@@ -29,8 +31,6 @@ int main(void) {
         Total = NilaiA + NilaiB;
         cout << "================================" << std::endl;
         cout << "Hasil anda: " << Total;
-        
-        return 0;
 
     } else if (PilihanUser == 2) {
         cout << "Pilihan yang dipilih: Pengurangan" << endl;
@@ -74,7 +74,5 @@ int main(void) {
     }
 
     return 0;
-
-
 
 }
